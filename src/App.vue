@@ -1,30 +1,59 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+
+  <div class="background">
+    <navBar/>
+
+    <router-view/>
+
+    <siteFooter class="footer"/>
+
+
   </div>
-  <router-view/>
+
+
 </template>
 
+<script>
+import navBar from './components/navbar.vue'
+import siteFooter from './components/site-footer.vue'
+
+export default {
+  components: { navBar, siteFooter }
+}
+</script>
+
+
 <style>
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  height: 100vh;
 }
 
-#nav {
-  padding: 30px;
+.background::after { 
+    content: "";
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: -500px;
+    right: 0;
+    /* left: 0; */
+    background: rgb(254, 139, 38);
+    transform: skewY(6deg);
+    z-index: -10;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+@media screen and (max-width: 768px) {
+  .background::after {
+    height: 900px;
+  }
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
