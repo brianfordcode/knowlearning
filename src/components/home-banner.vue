@@ -37,8 +37,8 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 50px;
     /* border: 1px solid black; */
-    padding-top: 120px;
   }
 
   .text-btn-wrapper {

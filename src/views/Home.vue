@@ -12,7 +12,6 @@
 
   <iconBanner/>
 
-
 </div>
   
 
@@ -57,7 +56,7 @@ export default {
   max-width: 700px;
   text-align: center;
   font-size: 20px;
-  padding: 0 20px 0 20px;
+  padding: 0 50px 0 50px;
 }
 
 </style>

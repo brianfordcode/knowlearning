@@ -6,7 +6,6 @@
         <div class="page-btns">
         <router-link to="/about">Our History</router-link>
         <router-link to="/contact">Contact Us</router-link>
-        <router-link to="/login">Log In</router-link>
         </div>
         
     </div>

@@ -1,11 +1,14 @@
 <template>
 
   <div class="background">
-    <navBar/>
+
+    <div class="nav">
+      <navBar/>
+    </div>
 
     <router-view/>
 
-    <siteFooter class="footer"/>
+    <siteFooter/>
 
 
   </div>
@@ -33,8 +36,12 @@ export default {
 #app {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   min-height: 100vh;
-  padding-bottom: 100px;
-  height: 100vh;
+  /* padding-bottom: 100px; */
+  /* background-color: whitesmoke; */
+}
+
+.nav {
+  padding-bottom: 68px;
 }
 
 .background::after { 
