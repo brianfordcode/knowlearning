@@ -4,8 +4,8 @@
         <router-link to="/"><img src="../assets/logo.png" alt="kl-logo"></router-link>
         
         <div class="page-btns">
-        <router-link to="/about">Our History</router-link>
-        <router-link to="/contact">Contact Us</router-link>
+        <router-link class="link" to="/about">Our History</router-link>
+        <router-link class="link" to="/contact">Contact Us</router-link>
         </div>
         
     </div>
@@ -43,6 +43,10 @@ img {
     margin: 0 10px;
     text-decoration: none;
     color: black;
+}
+
+.link.router-link-active {
+    color: rgb(254, 139, 38);
 }
 
 </style>

@@ -54,12 +54,12 @@ img {
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
-        padding-top: 80px;
+        padding-top: 50px;
         align-items: center;
     }
 
     .module {
-        margin-bottom: 40px;
+        margin-top: 40px;
     };
 }
 
