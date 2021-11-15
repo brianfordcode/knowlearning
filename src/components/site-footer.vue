@@ -4,10 +4,10 @@
         <div class="wrapper">
             <div class="links">
                 <router-link to="/login">Log In</router-link>
-                <p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+                <p>Icons made by <a href="https://www.freepik.com" target="_blank" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" target="_blank" title="Flaticon">www.flaticon.com</a></p>
             </div>
             <div class="kl-wrapper">
-                <img draggable="false" src="../assets/logo.png" alt="">
+                <img draggable="false" src="../assets/logo.svg" alt="logo">
                 <p>2021 KnowLearning</p>
             </div>
         
@@ -52,7 +52,7 @@ footer {
 }
 img {
     height: 40px;
-    margin-right: 10px;
+    width: 40px;
 }
 
 </style>

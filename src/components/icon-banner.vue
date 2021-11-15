@@ -47,19 +47,19 @@ export default {
 }
 
 img {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .container {
-        flex-direction: column;
+        flex-wrap: wrap;
         padding-top: 50px;
         align-items: center;
     }
 
     .module {
-        margin-top: 40px;
+        margin: 40px 0 0 0;
     };
 }
 

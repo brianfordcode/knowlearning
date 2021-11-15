@@ -3,8 +3,6 @@
     <div class="history wrapper">
         <p class="title">Our History</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odit nobis suscipit quibusdam nam explicabo ut, perferendis saepe dolor facere consequatur magni doloremque? Ullam nam odio molestiae in nisi quidem magnam aspernatur. Aut laborum atque dolores soluta illum similique officia tempora minus totam voluptatem nostrum voluptas rerum quibusdam vel, excepturi, repellat magni alias impedit magnam itaque deleniti distinctio culpa. Facere explicabo repellendus autem eveniet enim corporis assumenda quia accusantium totam numquam eum labore fugiat qui nobis nesciunt porro in nulla nostrum, sunt natus expedita beatae! Aspernatur assumenda mollitia suscipit omnis inventore eligendi non, sapiente corporis a consequuntur accusantium architecto! Illum?</p>
-        <br>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odit nobis suscipit quibusdam nam explicabo ut, perferendis saepe dolor facere consequatur magni doloremque? Ullam nam odio molestiae in nisi quidem magnam aspernatur. Aut laborum atque dolores soluta illum similique officia tempora minus totam voluptatem nostrum voluptas rerum quibusdam vel, excepturi, repellat magni alias impedit magnam itaque deleniti distinctio culpa. Facere explicabo repellendus autem eveniet enim corporis assumenda quia accusantium totam numquam eum labore fugiat qui nobis nesciunt porro in nulla nostrum.</p>
     </div>
     <div class="founders wrapper">
         <p class="title">About the Founders</p>
@@ -39,11 +37,11 @@ export default {
   margin: 0 auto;
   max-width: 800px;
   text-align: center;
-  padding: 30px 50px 0 50px;
+  padding: 75px 50px 0 50px;
 }
 
 .history {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .founders {

@@ -1,7 +1,7 @@
 <template>
   <div class="main-container">
     <div id="nav">
-        <router-link to="/"><img src="../assets/logo.png" alt="kl-logo"></router-link>
+        <router-link to="/"><img src="../assets/logo-text-orange.svg" alt="kl-logo"></router-link>
         
         <div class="page-btns">
         <router-link class="link" to="/about">Our History</router-link>
@@ -21,7 +21,7 @@ export default {
 <style scoped>
 
 .main-container {
-    background-color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(255, 255, 255, 0.75);
     width: 100%;
     position: fixed;
 }

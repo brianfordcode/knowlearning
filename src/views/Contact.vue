@@ -66,6 +66,7 @@ export default {
       justify-content: space-around;
       max-width: 900px;
       padding: 100px 50px 100px 50px;
+      min-height: calc(100vh - 328px);
   }
 
   .title {
@@ -146,7 +147,9 @@ export default {
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 30px 50px 15px 50px;
+            justify-content: flex-start;
+            padding: 30px 50px 50px 50px;
+            min-height: calc(100vh - 208px);
         }
 
         .title {

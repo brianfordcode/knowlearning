@@ -10,7 +10,7 @@
             </p>
           
             <router-link to="/contact">
-                <button>Let's get in touch<br>for a demo!</button>
+                <button>Get in touch<br>for a demo!</button>
             </router-link>
         </div>
 
@@ -61,17 +61,17 @@ export default {
   }
 
   button {
-    padding: 12px;
+    padding: 12px 35px;
     border: none;
-    background-color: rgb(255, 102, 0);
-    color: white;
+    background-color: rgb(231, 231, 231);
+    color: black;
     cursor: pointer;
     border-radius: 10px;
     transition: .25s ease-in-out;
   }
 
   button:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   .circle {
@@ -102,11 +102,20 @@ export default {
     }
 
     .circle {
-        display: none;
+        height: 250px;
+        width: 250px;
     }
     img {
-      display: none;
+      height: 300px;
     }
+  }
+  @media screen and (max-width: 600px) {
+      .circle {
+          display: none;
+      }
+      .img {
+          display: none;
+      }
   }
 
 </style>
