@@ -27,7 +27,6 @@ export default {}
 footer {
     background: rgb(254, 139, 38);
     padding: 10px 30px 10px 30px;
-    bottom: 0;
 }
 
 .wrapper {

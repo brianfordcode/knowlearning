@@ -8,7 +8,7 @@
 
     <router-view/>
 
-    <siteFooter/>
+    <siteFooter class="footer"/>
 
 
   </div>
@@ -35,9 +35,7 @@ export default {
 
 #app {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  min-height: 100vh;
-  /* padding-bottom: 100px; */
-  /* background-color: whitesmoke; */
+  height: 100vh;
 }
 
 .nav {
@@ -51,10 +49,13 @@ export default {
     position: absolute;
     top: -500px;
     right: 0;
-    /* left: 0; */
     background: rgb(254, 139, 38);
     transform: skewY(6deg);
     z-index: -10;
+}
+
+.footer {
+  bottom: 0;
 }
 
 @media screen and (max-width: 768px) {

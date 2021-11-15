@@ -14,7 +14,6 @@
               <p class="founder-name">Jason Ford</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, necessitatibus et commodi, voluptatum, cumque consequuntur reiciendis ipsa nihil praesentium consectetur corrupti reprehenderit maiores possimus iure. Amet quod, laborum tempore esse dicta accusantium similique at illum non, quos incidunt temporibus molestiae modi, veritatis porro excepturi perspiciatis repellat est laudantium velit placeat!</p>
           </div>
-          
         </div>
         <div class="founder-info second">
           <img src="https://picsum.photos/150/150" alt="founder-pic">
@@ -89,6 +88,10 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .history {
+    margin-bottom: 50px;
+  }
+
   .founder-info {
     display: flex;
     flex-direction: column;
